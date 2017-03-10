@@ -11,8 +11,6 @@
         <ScrollViewer VerticalScrollMode="Enabled">
             
         <StackPanel Margin="10">
-            <!--
-                -->
 
                 <TextBox Text="tbPrzykładowy textbox"/>
             <TextBlock Text="tbPrzykładowy textblock"/>

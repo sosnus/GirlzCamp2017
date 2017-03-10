@@ -8,6 +8,38 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer VerticalScrollMode="Enabled">
+            
+        <StackPanel Margin="10">
+            <!--
+                -->
+
+                <TextBox Text="tbPrzykładowy textbox"/>
+            <TextBlock Text="tbPrzykładowy textblock"/>
+            <Button Content="tbPrzykładowy textbox"/>
+            <CheckBox Content="tbPrzykładowy textbox"/>
+            <ListBox>
+                <ListBoxItem Content="przykładowy ListBox"/>
+                <ListBoxItem Content="Item 2"/>
+                <ListBoxItem Content="Item 3"/>
+                <ListBoxItem Content="Item 4"/>
+            </ListBox>
+            <ComboBox HorizontalAlignment="Stretch">
+                <ComboBoxItem Content="przykładowy ListBox"/>
+                <ComboBoxItem Content="Item 2"/>
+                <ComboBoxItem Content="Item 3"/>
+                <ComboBoxItem Content="Item 4"/>
+                </ComboBox>
+                <Image Source="Assets/Images/Tiles/Agenda.jpg" Width="200" Height="200"/>
+                <Image Source="https://assets.onestore.ms/cdnfiles/external/uhf/long/9a49a7e9d8e881327e81b9eb43dabc01de70a9bb/images/microsoft-gray.png" Width="Auto" Height="Auto" Margin="10"/>
+                <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <Slider x:Name="slider" Width="Auto"/>
+                <WebView Height="100" Width="Auto" />
+            
+        </StackPanel>
+        </ScrollViewer>
 
     </Grid>
+        
 </Page>

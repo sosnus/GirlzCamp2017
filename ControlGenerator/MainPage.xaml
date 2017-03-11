@@ -10,14 +10,15 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Name="spMain">
             <Button Name="btnGenerateTextBlock" Content="Generate textblock!" Click="btnGenerateTextBlock_Click"/>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Text:"/>
+                <StackPanel Orientation="Horizontal" Margin="5">
+
+                    <TextBlock Text="Text:"/>
             <TextBox Name="tbText" Text="tekst"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBox Name="tbSize" Text="20"/>
-
+            <StackPanel Orientation="Horizontal" Margin="5">
                 <TextBlock Text="Size:"/>
+                <TextBox Name="tbSize" Text="20"/>
+            </StackPanel>
                 <!--<ComboBox Name="cbSize">
                     <ComboBoxItem Content="10"/>
                     <ComboBoxItem Content="10"/>
@@ -26,7 +27,6 @@
                 
                 </ComboBox>-->
             <!--<TextBox Name="tbColor"/>-->
-            </StackPanel>
 
         </StackPanel>
     </Grid>

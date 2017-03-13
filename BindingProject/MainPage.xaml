@@ -10,8 +10,11 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
             <TextBlock Text="Kontrolka:"/>
-            <TextBlock Name="tblControl" Text="Test"/>
-            <Slider/>
+            <TextBlock Name="tblControl" Text="Test" FontSize="{Binding ElementName=sSize, Path=Value}"/>
+            <Slider Name="sSize" HorizontalAlignment="Right" Width="360"/>
+            
+            <TextBlock Name="label" Grid.Column="0" Grid.Row="0" Text="Ala ma kota" />
+            <TextBox Name="textBox" Grid.Column="1" Grid.Row="0" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Text="10" />
         </StackPanel>
     </Grid>
 </Page>

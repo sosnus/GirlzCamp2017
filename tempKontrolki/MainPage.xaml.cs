@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace ControlGenerator
+namespace tempKontrolki
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -27,16 +27,12 @@ namespace ControlGenerator
             this.InitializeComponent();
         }
 
-        private void btnGenerateTextBlock_Click(object sender, RoutedEventArgs e)
+        int zmienna = 0;
+
+        private void btnPrzycisk_Click(object sender, RoutedEventArgs e)
         {
-            TextBox tblNew = new TextBox();
-            tblNew.Text = tbText.Text;
-            //GET SIZE
-            tblNew.FontSize = Convert.ToDouble(tbSize.Text);
-
-            spMain.Children.Add(tblNew);
-
-
+            zmienna++;
+            tbPierwszy.Text = $"naciśnieto przycisk {zmienna} razy";
         }
     }
 }

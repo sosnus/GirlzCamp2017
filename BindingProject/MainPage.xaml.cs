@@ -25,12 +25,28 @@ namespace BindingProject
         public MainPage()
         {
             this.InitializeComponent();
-            InitBinding();
+            //        InitBinding();
+            //Binding binding = new Binding();
+            //binding.Source = sSize;
+            //binding.Path = new PropertyPath("FontSize");
+            //tblControl.SetBinding(TextBlock.FontSizeProperty, binding);
+
+
+            //Binding binding2 = new Binding();
+            //binding2.Source = textBox;
+            //binding2.Path = new PropertyPath("Text");
+            //label.SetBinding(TextBlock.FontSizeProperty, binding);
+
+
+
         }
 
         private void InitBinding()
         {
-            Binding binding = new Binding();
+            //Binding binding = new Binding();
+            //binding.Source = sSize;
+            //binding.Path = new PropertyPath("FontSize");
+            //tblControl.SetBinding(TextBlock.FontSizeProperty, binding);
         }
 
 

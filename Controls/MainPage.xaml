@@ -30,8 +30,14 @@
                 </ComboBox>
                 <Image Source="Assets/Images/Tiles/Agenda.jpg" Width="200" Height="200"/>
                 <Image Source="https://assets.onestore.ms/cdnfiles/external/uhf/long/9a49a7e9d8e881327e81b9eb43dabc01de70a9bb/images/microsoft-gray.png" Width="Auto" Height="Auto" Margin="10"/>
-                <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-                <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <CheckBox x:Name="checkBox" IsChecked="True" Content="CheckBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton x:Name="radioButton" IsChecked="True" GroupName="g1" Content="RadioButton1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton  Content="RadioButton2" GroupName="g1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton  Content="RadioButton3" GroupName="g1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton  Content="RadioButton4" GroupName="g1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton  Content="RadioButtonA" GroupName="g2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton  Content="RadioButtonB" GroupName="g2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <RadioButton  Content="RadioButtonC" GroupName="g2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 <Slider x:Name="slider" Width="Auto"/>
                 <WebView Height="100" Width="Auto" />
             

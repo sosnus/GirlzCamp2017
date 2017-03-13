@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingProject", "BindingPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOfObjects", "ListOfObjects\ListOfObjects.csproj", "{9B36AC19-C320-4DBE-8F7C-4D041A8DA263}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempKontrolki", "tempKontrolki\tempKontrolki.csproj", "{CB91850A-235B-4CFD-8030-64086D079F09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -93,6 +95,24 @@ Global
 		{9B36AC19-C320-4DBE-8F7C-4D041A8DA263}.Release|x86.ActiveCfg = Release|x86
 		{9B36AC19-C320-4DBE-8F7C-4D041A8DA263}.Release|x86.Build.0 = Release|x86
 		{9B36AC19-C320-4DBE-8F7C-4D041A8DA263}.Release|x86.Deploy.0 = Release|x86
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|ARM.Build.0 = Debug|ARM
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|x64.ActiveCfg = Debug|x64
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|x64.Build.0 = Debug|x64
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|x64.Deploy.0 = Debug|x64
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|x86.ActiveCfg = Debug|x86
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|x86.Build.0 = Debug|x86
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Debug|x86.Deploy.0 = Debug|x86
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|ARM.ActiveCfg = Release|ARM
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|ARM.Build.0 = Release|ARM
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|ARM.Deploy.0 = Release|ARM
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|x64.ActiveCfg = Release|x64
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|x64.Build.0 = Release|x64
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|x64.Deploy.0 = Release|x64
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|x86.ActiveCfg = Release|x86
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|x86.Build.0 = Release|x86
+		{CB91850A-235B-4CFD-8030-64086D079F09}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
